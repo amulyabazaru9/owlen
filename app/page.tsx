@@ -96,7 +96,7 @@ export default function Home() {
         />
 
         {/* NAVBAR */}
-        <nav className="fixed top-0 left-0 w-full z-50 px-8 py-6 flex items-center justify-between backdrop-blur-md bg-black/10 border-b border-white/10">
+        <nav className="fixed top-0 left-0 w-full z-50 px-5 md:px-8 py-5 md:py-6 flex items-center justify-between backdrop-blur-md bg-black/10 border-b border-white/10">
 
           <h1 className="text-lg tracking-[0.5em] uppercase font-semibold">
             OWLEN
@@ -157,7 +157,7 @@ export default function Home() {
             transition={{ duration: 1.5 }}
             className="relative z-10 flex h-full flex-col items-center justify-center text-center px-6"
           >
-            <h1 className="text-5xl md:text-8xl font-extrabold tracking-[0.6em] uppercase">
+            <h1 className="text-4xl sm:text-6xl md:text-8xl font-extrabold tracking-[0.35em] md:tracking-[0.6em] uppercase">
               OWLEN
             </h1>
 
@@ -174,7 +174,7 @@ export default function Home() {
         {/* THE UNSEEN SECTION */}
         <section
           id="philosophy"
-          className="relative min-h-screen flex items-center justify-center px-6 py-48 border-t border-white/10"
+          className="relative min-h-screen flex items-center justify-center px-6 py-32 md:py-48 border-t border-white/10"
         >
 
           {/* Background Image */}
@@ -212,7 +212,7 @@ export default function Home() {
               The Unseen
             </p>
 
-            <h2 className="text-4xl md:text-6xl font-light leading-[1.4]">
+            <h2 className="text-3xl sm:text-5xl md:text-6xl font-light leading-[1.4]">
               Built for those who observe before they speak.
             </h2>
           </motion.div>
@@ -221,7 +221,7 @@ export default function Home() {
         {/* FABRIC SECTION */}
         <section
           id="craftsmanship"
-          className="relative min-h-screen flex items-center justify-center px-6 py-48 border-t border-white/10"
+          className="relative min-h-screen flex items-center justify-center px-6 py-32 md:py-48 border-t border-white/10"
         >
 
           {/* Background Image */}
@@ -259,7 +259,7 @@ export default function Home() {
               Craftsmanship
             </p>
 
-            <h2 className="text-4xl md:text-6xl font-light leading-[1.4]">
+            <h2 className="text-3xl sm:text-5xl md:text-6xl font-light leading-[1.4]">
               Every fold carries intention.
             </h2>
           </motion.div>
@@ -282,7 +282,7 @@ export default function Home() {
         {/* MOVEMENT SECTION */}
         <section
           id="movement"
-          className="relative min-h-screen flex items-center justify-center px-6 py-48 border-t border-white/10 overflow-hidden"
+          className="relative min-h-screen flex items-center justify-center px-6 py-32 md:py-48 border-t border-white/10 overflow-hidden"
         >
 
           {/* Background Image */}
@@ -321,7 +321,7 @@ export default function Home() {
               Movement
             </p>
 
-            <h2 className="text-4xl md:text-6xl font-light leading-[1.4]">
+            <h2 className="text-3xl sm:text-5xl md:text-6xl font-light leading-[1.4]">
               Silence still leaves a trace.
             </h2>
 
@@ -338,7 +338,7 @@ export default function Home() {
             viewport={{ once: true }}
           >
 
-            <h2 className="text-3xl md:text-5xl tracking-[0.5em] uppercase mb-8">
+            <h2 className="text-2xl sm:text-4xl md:text-5xl tracking-[0.5em] uppercase mb-8">
               OWLEN
             </h2>
 

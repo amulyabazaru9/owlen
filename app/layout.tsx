@@ -5,6 +5,11 @@ import { ReactNode, useEffect } from "react";
 import Lenis from "lenis";
 import { Cormorant_Garamond, Inter } from "next/font/google";
 
+export const metadata = {
+  title: "OWLEN",
+  description: "Crafted for the unseen.",
+};
+
 const cormorant = Cormorant_Garamond({
   subsets: ["latin"],
   weight: ["300", "400", "500", "600", "700"],
