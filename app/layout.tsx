@@ -1,8 +1,5 @@
-"use client";
-
 import "./globals.css";
-import { ReactNode, useEffect } from "react";
-import Lenis from "lenis";
+import { ReactNode } from "react";
 import { Cormorant_Garamond, Inter } from "next/font/google";
 
 export const metadata = {
@@ -26,25 +23,6 @@ export default function RootLayout({
 }: {
   children: ReactNode;
 }) {
-
-  useEffect(() => {
-    const lenis = new Lenis({
-      duration: 1.5,
-      smoothWheel: true,
-    });
-
-    function raf(time: number) {
-      lenis.raf(time);
-      requestAnimationFrame(raf);
-    }
-
-    requestAnimationFrame(raf);
-
-    return () => {
-      lenis.destroy();
-    };
-  }, []);
-
   return (
     <html
       lang="en"
